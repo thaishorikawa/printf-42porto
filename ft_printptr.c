@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
 static int	ft_counthex(unsigned long long num)
 {
 	int	i;
