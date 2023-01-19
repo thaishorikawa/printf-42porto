@@ -61,6 +61,8 @@ int	ft_printf(const char *format, ...)
 int main()
 {
 	ft_printf("%s\n", "good morning"); 
+	ft_printf("%c\n", 'a'); 
+	ft_printf("%s\n%d\n%s\n", "good morning", 45, "bye"); 
 
 	return 0;
 }
