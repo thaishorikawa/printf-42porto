@@ -57,3 +57,11 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (num_args);
 }
+/*
+int main()
+{
+	ft_printf("%s\n", "good morning"); 
+
+	return 0;
+}
+*/
