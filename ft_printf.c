@@ -15,10 +15,7 @@
 int	ft_format_checker(va_list args, const char format)
 {
 	if (format == 'c')
-	{
-		ft_putchar_fd(va_arg(args, int), 1);
-		return (1);
-	}
+		return (ft_putchar(va_arg(args, int)));
 	else if (format == 's')
 		return (ft_putstr(va_arg(args, char *)));
 	else if (format == 'p')

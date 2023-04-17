@@ -29,7 +29,7 @@ static int	ft_counthex(unsigned long long num)
 
 void	ft_ptrtohexa(unsigned long long num)
 {
-	const char	base[17] = "0123456789abcdef";
+	const char	base[16] = "0123456789abcdef";
 
 	if (num >= 16)
 	{

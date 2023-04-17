@@ -24,7 +24,7 @@ int		ft_printptr(unsigned long long ptr);
 int		ft_prthex(unsigned int num, const char format);
 int		ft_prtnbr(int i);
 int		ft_prtunsg(unsigned int nbr);
-void	ft_putchar(char c);
+int		ft_putchar(int c);
 int		ft_putstr(const char *str);
 char	*ft_itoa(int n);
 void	ft_putchar_fd(char c, int fd);
